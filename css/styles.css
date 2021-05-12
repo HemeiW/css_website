@@ -1,3 +1,137 @@
+.top-container {
+  background-color: #b68973;
+  /* https://colorhunt.co/palette/206782 */
+  position: relative;
+  padding-top: 100px;
+}
+
 body {
-  background-color: white;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+  /* center everything which does not have a width set */
+  font-family: 'Merriweather', serif;
+  /* center everything which does not have a width set */
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.63em;
+  /*   16px is 100% for 90px for dynamic
+                        16px = 100% = 1em is inheritated from the body font-size in order to not have that add r in front of em so rem*/
+  color: #1e212d;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #525A7A;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #272B3B;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #40514e;
+}
+
+.middle-container {
+  background-color: #faf3e0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #b68973;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ex {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-cooking {
+  height: 18%;
+  width: 18%;
+  border: 1px solid black;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-image {
+  height: 10%;
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.skill-googling {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me-image {
+  height: 10%;
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.footer-link {
+  color: #1e212d;
+  margin: auto 30px;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.text-position {
+  text-align: left;
+  width: 50%;
+  margin: 50px auto;
+  line-height: 2;
+}
+
+.credentials {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #5B6387;
+  border-width: 6px;
+  width: 5%;
 }
